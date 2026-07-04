@@ -1,11 +1,9 @@
 {
   "name": "smartbook",
   "version": "2.0.0",
-  "type": "module",
   "scripts": {
-    "dev:api": "node api/index.js",
-    "dev:frontend": "cd frontend && vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
